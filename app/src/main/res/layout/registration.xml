@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/purple"
+    tools:context=".Registration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ly_one_register">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginBottom="30dp"
+            android:textSize="40dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+        android:id="@+id/etxtNameRegistration"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Name"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/etxtEmailRegistration"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Email"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/etxtPasswordRegistrationOne"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Password"
+            android:textColor="@color/white"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/etxtPasswordRegistrationTwo"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Confirm Password"
+            android:textColor="@color/white"
+            android:textSize="25dp"/>
+
+
+       </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/ly_one_register"
+        android:id="@+id/ly_two_register">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/account_existing"
+        android:layout_marginTop="10dp"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/log_in"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:id="@+id/txt_log_in"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ly_three_register"
+        android:layout_below="@id/ly_two_register"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textAllCaps="false"
+            android:text="Register"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_login"
+            android:layout_gravity="center"
+            android:stateListAnimator="@null"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

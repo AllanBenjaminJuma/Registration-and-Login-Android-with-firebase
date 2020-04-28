@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Instructor</string>
+    <string name="to">TO</string>
+    <string name="from">FROM</string>
+    <string name="forwarded_for_action">FORWARDED FOR ACTION TO</string>
+    <string name="date">DATE</string>
+    <string name="file_ref">FILE REF</string>
+    <string name="your_matter">This is your matter please attend</string>
+    <string name="your_signature">For your Signature</string>
+    <string name="amend">Ammend &amp; return</string>
+    <string name="update_account">Update Account Records</string>
+    <string name="raise_drn">Raise DRN</string>
+    <string name="cost_file">Cost the file</string>
+    <string name="boc">Issue BOC and Receipts</string>
+    <string name="pretrial_discovery">Do Pre-trial &amp; Discovery</string>
+    <string name="ascertain_credit">Ascertain credit or debit balance on file</string>
+    <string name="attend_hearing_mention">Attend Hearing/Mention ruling</string>
+    <string name="account_existing">Already have an account?</string>
+    <string name="log_in">Log in here.</string>
+
+</resources>
